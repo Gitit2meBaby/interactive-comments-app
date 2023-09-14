@@ -1,0 +1,127 @@
+<!-- <div class="score">
+    <div class="score-wrapper">
+        <img class="score-plus" src="images/icon-plus.svg" alt="score plus">
+        <h3 class="score">${commentData.score}</h3>
+        <img src="images/icon-minus.svg" alt="score minus">
+    </div>
+</div>
+<div class="message-wrapper">
+    <div class="message-header">
+        <div class="user-and-time">
+            <img class="user-image" src="${commentData.user.image.webp}" alt="user profile picture">
+            <h2 class="user-name">${commentData.user.username}</h2>
+            <h3 class="created">${commentData.createdAt}</h3>
+        </div>
+        <div class="alter-message-state">
+            <div class="reply">
+                <img src="images/icon-reply.svg" alt="reply arrow">
+                <h3 class="reply-text">Reply</h3>
+            </div>
+        </div>
+    </div>
+    <div class="message">
+        <p class="comment">${commentData.content}</p>
+    </div>
+</div>
+
+<div class="container reply-dropdown hidden">
+    <div class="profile-image">
+        <img class="current-user-image" src="" alt="Your profile picture">
+    </div>
+    <div class="reply-input">
+        <input type="text" name="reply">
+    </div>
+    <div class="reply-btn-wrapper">
+        <button class="reply">reply</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class=message-and-reply-container>
+
+    <div class="container comments">
+        <div class="score">
+            <div class="score-wrapper">
+                <img class="score-plus" src="images/icon-plus.svg" alt="score plus">
+                <h3 class="score">${commentData.score}</h3>
+                <img src="images/icon-minus.svg" alt="score minus">
+            </div>
+        </div>
+        <div class="message-wrapper">
+            <div class="message-header">
+                <div class="user-and-time">
+                    <img class="user-image" src="${commentData.user.image.webp}" alt="user profile picture">
+                    <h2 class="user-name">${commentData.user.username}</h2>
+                    <h3 class="created">${commentData.createdAt}</h3>
+                </div>
+                <div class="alter-message-state">
+                    <div class="reply">
+                        <img src="images/icon-reply.svg" alt="reply arrow">
+                        <h3 class="reply-text">Reply</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <p class="comment">${commentData.content}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="replies-container">
+    </div>
+</div>
+
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Interactive comments section</title>
+</head>
+
+<body>
+    <main>
+        <div class="app">
+
+            <div class="comments-wrapper">
+            </div>
+
+            <div class="container reply-container">
+                <div class="profile-image">
+                    <img class="current-user-image" src="" alt="Your profile picture">
+                </div>
+                <div class="reply-input">
+                    <input type="text" name="reply" placeholder="Add a comment">
+                </div>
+                <div class="reply-btn-wrapper">
+                    <button id="send" class="primary-btn">send</button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
